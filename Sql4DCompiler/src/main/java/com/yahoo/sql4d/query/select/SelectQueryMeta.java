@@ -45,7 +45,7 @@ import scala.Tuple2;
  */
 public class SelectQueryMeta  extends PlainDimQueryMeta {
 
-    public final PagingSpec pagingSpec = new PagingSpec(null, 5);
+    public final PagingSpec pagingSpec = new PagingSpec(null, 200);
     public List<String> fetchMetrics = new ArrayList<>();
     
     
